@@ -1,4 +1,5 @@
 <?php 
+declare(strict_types=1);
 
 $articles = [
     [ 'title'=> 'Förskollärarna slår larm: Vi hinner inte med',
