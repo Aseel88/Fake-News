@@ -19,7 +19,7 @@ function getAuthor(array $articles): string
 }
 function getPublishedDate(array $articles): string
 {
-    return $articles['Published date'];
+    return $articles['Published_date'];
 }
 function getContent(array $articles): string
 {
@@ -35,6 +35,11 @@ function getArticleById(array $articles, int $id): string
     
 }
 
+function getLikeCounter(array $articles): int
+{
+    return $articles['like_counter'];
+}
+
 usort($articles, function ($a, $b) {
-    return $a['Published date'] <=> $b['Published date'];
+    return $a['Published_date'] <=> $b['Published_date'];
 });
