@@ -73,12 +73,16 @@
     </style>
 </head>
 <body>
-      
-         <?php foreach ($articles as $article):?>
-         <p><?php echo getContent($article); ?></p>
+               
+         <p> 
+         
+         <?php $id = $_GET['id'];?>
+        <?php $article = getArticleById($articles, $id);?>
+        <?php echo $article ;?>    
+        </p>
+            
    
-   
-         <?php endforeach; ?>
-         <br>
+            <br>
+           
 </body>
 </html>

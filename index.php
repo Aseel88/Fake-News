@@ -1,10 +1,6 @@
 <?php
 declare(strict_types=1);?>
-
-
 <?php require __DIR__.'/functions.php';?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,45 +12,40 @@ declare(strict_types=1);?>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class ="container">
-        <h1> The News Feed </h1>
-        <section>
+      
+    <h1> The News Feed </h1>
+    <?php foreach ($articles as $article):?> 
+    <div class ="container">        
             
-            <?php foreach ($articles as $article):?>           
-               
-                   <div class= "article">                  
+                      
+             <header>  
+                   <!--<div class= "article"> -->               
                 
                    <img src="<?php echo getImg($article); ?>" >                           
-                
-            <header>
+         </header> 
+         <section>
                  <h1> <a href="#"> <?php echo getTitle($article) ; ?> </a>  </h1>
-                 <a  <?php echo getContent($article); ?> href="article.php"  > Read the article </a>
                  
-            </header>
-            <footer>
+                 <a href="/article.php?id=1">Read the article </a>
+                 
+        </section> 
+                   
+        
+        <footer>
               <!-- Author's name -->
                 <p> Written by: <?php echo getAuthor( $article); ?> </p> 
                  <!-- date-->
                 <p><?php echo getPublishedDate($article); ?> </p>
 
-            </footer> 
-            
-            
-            
+        </footer>           
+                        
             <?php endforeach; ?>
             <br>
-                   </div>
-           
-    
-
-
-
-
-         </section>
-
     </div>
+           
+        
 
-
+   
 
 </body> 
 </html>
