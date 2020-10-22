@@ -70,10 +70,10 @@ main{
     align-self: center;
     font-size: 16px;
     width: 800px;
-    -webkit-box-shadow: 4px 12px 32px -7px rgba(255,255,255,1);
-    -moz-box-shadow: 4px 12px 32px -7px rgba(255,255,255,1);
-    box-shadow: 4px 12px 32px -7px rgba(255,255,255,1);
-    /*  box-shadow: 0 2px 2px 0 rgb(255, 253, 253), 0 2px 2px 0 #f8f4f4;
+     /*-webkit-box-shadow: 4px 4px 4px 4px rgba(255,255,255,1);
+    -moz-box-shadow: 4px 4px 4px -px rgba(255,255,255,1);
+    box-shadow: 4px 4px 4px 4px rgba(255,255,255,1);
+     box-shadow: 0 2px 2px 0 rgb(255, 253, 253), 0 2px 2px 0 #f8f4f4;
   height: 100%;
    background-color: rgb(120, 135, 145);
     padding: 50px;

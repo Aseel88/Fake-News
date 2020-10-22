@@ -1,0 +1,159 @@
+/*@media screen and ( max-width :500px ){
+    body{
+        
+    ;
+    
+    }
+    }*/
+    body{
+        max-width: 500px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; 
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+   
+        
+
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;       
+        max-width: 300px;
+    }
+    nav a{
+        color:white;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    .list img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-weight: bolder;
+        color: wheat;
+        font-family: 'Vast Shadow', cursive;
+        text-align: center;
+               
+    }
+    main{
+        display: flex;
+       
+        justify-content: center;
+        align-content: center;
+        flex-direction: column; 
+        width: 100%;
+        
+
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+
+    }
+    .various_news{
+        width: 100%;
+        height: 300px;
+        /*background-color: cornsilk;*/
+        margin-bottom: 30px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+               
+    }
+    .various_news a{
+        padding: 20px;
+        color: white;        
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    .various_news a:hover{
+        text-decoration: underline;
+    }
+    .articles{
+        width: 100%;
+    }
+    header img{
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .like{
+        color: white;
+        size: ;
+        margin-top: 15px;
+    }
+    .description{
+        display: flex;       
+        flex-direction: row;      
+    }
+    .description a{
+        color: white;
+        font-size: 16px;
+        margin-top: 10px;
+        
+    }
+    .description h1{
+        margin-left: 70px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-right: opx;
+        
+    }
+    .description h1 a{
+        color: wheat;
+    }
+    .read{
+        margin-left: 70px;
+    }
+    footer{
+        display: flex;       
+        flex-direction: row; 
+        justify-content: space-evenly;
+        color: white;
+    }
+    .authors{
+        width: 100%;
+        max-height: 300px;      
+        border-radius: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+
+       
+    }
+    h3{
+        color: white;        
+        font-weight: bold;
+        padding-left: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .about_author{
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        
+    }
+    .about_author a{     
+        color: wheat;
+        padding-left: 20px;
+    }
