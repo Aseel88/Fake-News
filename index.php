@@ -64,11 +64,18 @@ declare(strict_types=1);?>
                 <h3> About authors! </h3>
                 <?php foreach ($articles as $article):?>  
                 <div class="about_author">                     
-                    <a  href= "authors.php?id=<?php echo $article['author']; ?>"><?php echo getAuthor( $article); ?>  </a> 
+                    <a  href= "authors.php?id=<?php echo $article['id']; ?>"><?php echo getAuthor($article); ?> </a>                             
+                      
                 </div>
                 <?php endforeach; ?>
                 <br>  
                 </div> 
+            </div>
+            <div class ="terms"> 
+                <a href =""> Terms of use</a>
+                <a href =""> Cookies</a>
+                <a href =""> Privacy Policy  </a>
+               
             </div>
         </section>    
     </main>

@@ -34,7 +34,6 @@ function getArticleById(array $articles, int $id): string
     }
     
 }
-
 function getLikeCounter(array $articles): int
 {
     return $articles['like_counter'];
@@ -43,3 +42,25 @@ function getLikeCounter(array $articles): int
 usort($articles, function ($a, $b) {
     return $a['Published_date'] <=> $b['Published_date'];
 });
+
+
+function getAuthorById(array $authors, int $id): string
+{
+    foreach ( $authors as $author){
+        if ($author['id'] === $id){
+            return $author['full_name'];
+        }
+    }
+    
+}
+function getImgById(array $authors, int $id): string
+{
+    foreach ( $authors as $author){
+        if ($author['id'] === $id){
+            return $author['img'];
+        }
+    }
+    
+}
+
+

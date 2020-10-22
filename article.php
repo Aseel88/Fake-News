@@ -13,10 +13,15 @@
         box-sizing: border-box; 
     }
     body{
+        max-width: 500px;
+        background-color: black;
         display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; 
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
     }
     .container{
         width: 50%;

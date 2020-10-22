@@ -107,29 +107,39 @@ $articles = [
 ]?>
 
 
-<?php $authors = [
+<?php
+ $authors = [
   [
-      'full name'=> 'Malin Wigen',
+      'full_name'=> 'Malin Wigen',
       'id'=> 1,
+      'about' =>  '', 
+      'img' =>    '',
   ],
   [
-      'full name'=> 'Elle Hunt',
+      'full_name'=> 'Elle Hunt',
       'id'=> 2,
-
+      'about' =>   '',
+      'img' =>    '',
   ],
   [
-      'full name'=> 'Zoe Williams',
+      'full_name'=> 'Zoe Williams',
       'id'=> 3,
+      'about' =>   '',
+      'img' =>    '',
 
   ],
   [
-      'full name'=> '',
-      'id'=> '4',
+      'full_name'=> 'Karin Holmberg',
+      'id'=> 4,
+      'about' =>   '',
+      'img' =>    '',
 
   ],
   [
-      'full name'=> '',
-      'id'=> '5',
+      'full_name'=> 'Ben Birchall',
+      'id'=> 5,
+      'about' =>   '',
+      'img' =>    '',
 
   ],
 ] 
