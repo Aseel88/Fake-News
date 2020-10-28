@@ -1,5 +1,5 @@
 # Fake News
-![Alt Text](https://giphy.com/gifs/jeffdunham-trump-donald-fake-news-jRZUziKCd95W1ba4NB.gif)
+
 
 ## Table of contents
 * [General info](#general-info)
