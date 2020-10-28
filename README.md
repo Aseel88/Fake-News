@@ -3,7 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Installation](#installation)
 
 ## General info
 This project is to create a news feed in PHP, which consists many items created by different authors.
