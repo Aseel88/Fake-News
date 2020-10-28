@@ -25,6 +25,24 @@ function getContent(array $articles): string
 {
     return $articles['content'];
 }
+function getTitleById(array $articles, int $id): string
+{
+    foreach ( $articles as $article){
+        if ($article['id'] === $id){
+            return $article['title'];
+        }
+    }
+    
+}
+function getImgById(array $articles, int $id): string
+{
+    foreach ( $articles as $article){
+        if ($article['id'] === $id){
+            return $article['img'];
+        }
+    }
+    
+}
 function getArticleById(array $articles, int $id): string
 {
     foreach ( $articles as $article){
@@ -39,9 +57,13 @@ function getLikeCounter(array $articles): int
     return $articles['like_counter'];
 }
 
-usort($articles, function ($a, $b) {
-    return $a['Published_date'] <=> $b['Published_date'];
-});
+
+
+
+function getAuthorsName( array $authors): string
+{
+    return $authors['full_name'];
+}
 
 
 function getAuthorById(array $authors, int $id): string
@@ -53,11 +75,20 @@ function getAuthorById(array $authors, int $id): string
     }
     
 }
-function getImgById(array $authors, int $id): string
+function getAuthorsImgById(array $authors, int $id): string
 {
     foreach ( $authors as $author){
         if ($author['id'] === $id){
             return $author['img'];
+        }
+    }
+    
+}
+function getAboutById(array $authors, int $id): string
+{
+    foreach ( $authors as $author){
+        if ($author['id'] === $id){
+            return $author['about'];
         }
     }
     

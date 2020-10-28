@@ -7,87 +7,122 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article 1</title>
+    <title>Article </title>
     <style> 
-    *{
-        box-sizing: border-box; 
-    }
     body{
-        max-width: 500px;
-        background-color: black;
+     color: white;
+     max-width: 500px;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center; 
+     padding: 0px;
+     margin: 0px;
+     border: 0px;
+    }
+    nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: flex-start;       
+        max-width: 300px;
+    }
+    nav a{
+        color:white;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    .list img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    main{
+        display: flex;
+        flex-direction :column;
         justify-content: center;
-        align-content: center; 
-        padding: 0px;
-        margin: 0px;
-        border: 0px;
+        align-items: center; 
     }
-    .container{
-        width: 50%;
-        height: 85%;
-        background-color: cornsilk;
-        font-family: arial;
-        font-size: 18px;
-        color:darkblue;
-        margin-top: 60px;
-        display:flex;
-        justify-items: center;
-        align-items: center;
-        border-radius: 25px;
-        padding: 50px;
-        border-style: inset; 
-
+    h1{
+       
+        font-weight: bolder;
+        color: wheat;
+        font-family: 'Vast Shadow', cursive;
+        text-align: center;
+    }
+    
+    img{
+        width:  50%;
+        height: 300px;
     }
     p{
-        overflow: auto;
-    }
-    @media screen and ( max-width :500px ){
-    p{
-        overflow: scroll;
-        font-size:16px
-    
-    }
-    .container{
-        height:200%;
-        width:100%;
-        overflow: scroll;
+        padding-left: 20px;
+        padding-right: 20px;
 
     }
-    }
- @media screen and ( max-width :500px ){
-    p{
-        overflow: auto;
-        font-size:16px
-    
-    }
-    .container{
-        height: auto;
-
-    }
-        }
-    
- @media screen and ( min-width : 1024px){
+    @media screen and  (min-width: 760px){
         body{
-        ;
+            max-width: 100%;
+            
+
         }
+        p{
+            font-size: 24px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        nav{
+        max-width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+        justify-content: space-between;
+        margin-bottom: 50px;
+        }
+        .list img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
     }
-
-
+        
+    }
 
     </style>
 </head>
 <body>
-               
-         <p> 
+    <div class="list">
+        <img src="">     
+        <nav>
+           <a href ="#"> International </a>
+           <a href ="#"> Local </a>
+           <a href ="#"> Business </a>
+           <a href ="#"> Science </a>
+
+        </nav>
+    </div>
+    <main>
+        <?php $id = $_GET['id'];?>
+        <h1>  <?php $article = getTitleById($articles, $id);?>
+         <?php echo $article ;?>
+         </h1> 
+   
+         <img src="
+         <?php $article = getImgById($articles, $id);?>
+         <?php echo $article ;?> " alt="" />      
          
-         <?php $id = $_GET['id'];?>
-        <?php $article = getArticleById($articles, $id);?>
+         <p>       
+         <?php $article = getArticleById($articles, $id);?>
         <?php echo $article ;?>    
         </p>
             
-   
-            <br>
-           
+    </main>
+                     
 </body>
 </html>
