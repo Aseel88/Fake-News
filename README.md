@@ -6,20 +6,28 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is to create a news feed in PHP, which consists many items created by different authors.
+The content of project isn't logical data. It consists many articles which published in The Guardian and Aftonbladet.
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* PHP 7.4
+* HTML
+* CSS
 	
-## Setup
-To run this project, install it locally using npm:
-
+## Installation
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+In the terminal, use the command git clone, then paste the link from your clipboard, or copy the command and link from below:
+
+$ git clone https://github.com/Aseel88/Fake-News.git
+
+Change directories to the new directory:
+
+$ cd ~/Fake-News/
+
+Run a local server using the command line:
+
+$ php -S localhost:8000 
+
 ```
 
