@@ -1,5 +1,5 @@
 # Fake News
-![Alt Text](https://giphy.com/gifs/trump-news-fake-fSjEO1PRijZAjaOuQ5.gif)
+![Alt Text]()
 
 ## Table of contents
 * [General info](#general-info)
