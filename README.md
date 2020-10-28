@@ -1,5 +1,4 @@
 # Fake News
-https://giphy.com/gifs/jeffdunham-trump-donald-fake-news-jRZUziKCd95W1ba4NB
 
 
 
