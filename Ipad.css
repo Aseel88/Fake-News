@@ -1,4 +1,4 @@
-@media screen and  (min-width: 1000px){
+@media screen and  (min-width: 560px){
     body{      
         max-width: 100%;
         background-color: black;
@@ -23,6 +23,7 @@
         margin-bottom: 50px;
         color: white;
         z-index:1;
+        right: 0px;
     }    
    
         
@@ -78,24 +79,6 @@
         height: 50px;
         margin-bottom: 10px;
     }
-    h1{
-        font-weight: bolder;
-        color: wheat;
-        font-family: 'Vast Shadow', cursive;
-        text-align: center;
-        margin-bottom: 60px; 
-        font-size: 48px;   
-         
-                
-    }
-    main{
-        display: flex;       
-        justify-content: center;
-        align-content: center;
-        flex-direction: column; 
-        width: 100%;
-    }     
-   
     section{
         display: flex;
         flex-direction: column;
@@ -109,12 +92,12 @@
     }
     .various_news{
         position: fixed;
-        width: 450px;
+        width: 40%;
         min-height: 400px;
         margin-bottom: 200px;
         margin-right:20px;
         top: 27%;
-        right: 60%;
+        right: 48%;
     }            
     
 
@@ -128,6 +111,7 @@
         border: 3px solid rgb(252, 232, 151);   
         
     }
+
     .various_news a{
         padding: 10px;        
         max-height: 100%;
@@ -138,42 +122,30 @@
        
     }
     .container{
-        max-width:1000px;
+        max-width:700px;
         position: relative;
         right: -20%;
         display: flex;
         flex-direction: row;             
         margin-top: 200px;
         
-
     }
-
-
     .articles{
-         width: 600px; 
+         width: 100%; 
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-bottom: 100px;
       
     }
-    .description{
-        display: flex;
-        flex-direction: row;
-        justify-items: flex-start;
+    header img{
+        width: 100%;
+        height: 300px;
+        padding: 0px;
+        margin-bottom: 10px;
     }
-    .description h1{
-        margin-left: 20px;
-        margin-bottom: 0px;
-        margin-top: -22px;
-        margin-right: opx;
         
-    }
-    .like{
-        color: white;
-        margin-top: 13px;
-        padding-left: 10px;
-    }
+    
     footer{
         display: flex;
         flex-direction: row;
@@ -186,16 +158,12 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-right: 50px;
+        margin-right: -70px;
     }
     .author{
         margin-right: 50px;
     }
-   
- }
- /* @media screen and  (min-width: 900px){
-   .various_news a{
-     margin-left: 20px;
- }
+}
 
-} */
+
+

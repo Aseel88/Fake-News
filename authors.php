@@ -8,8 +8,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Authors </title>
-    <link rel="stylesheet" href="mobile.css" />
-    <!--<link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <style> 
 body{
@@ -24,43 +22,12 @@ body{
      margin: 0px;
      border: 0px;
     }
-    nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;       
-        max-width: 300px;
-    }
-    /*nav a{
-        color:white;
-        font-size: 14px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        font-weight: 400;
-        margin-left: 10px;
-    }
-    nav a:hover{
-        text-decoration: underline;
-    }
-    .list img{
-        width: 40px;
-        height: 40px;
-        margin-bottom: 10px;
-    }
     main{
         display: flex;
-        justify-content: center;
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
+
     }
-    h1{
-        font-weight: bolder;
-        color: wheat;
-        font-family: 'Vast Shadow', cursive;
-        text-align: center;
-    }
-    img{
-        width:  50%;
-        height: 300px;
-    }*/
     nav {
         max-width:300px;
         height: 30px;
@@ -109,11 +76,16 @@ body{
         height: 50px;
         margin-bottom: 10px;
     }
+  
+    img{
+        width:  50%;
+        height: 300px;
+    }
     p{
         padding-left: 20px;
         padding-right: 20px;
 
-    }
+    }  
     @media screen and  (min-width: 760px){
         body{
             max-width: 100%;
@@ -122,28 +94,14 @@ body{
 
         }
         p{
-            font-size: 24px;
+            font-size: 18px;
             padding-left: 100px;
             padding-right: 100px;
         }
-        /*nav{
-        max-width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        align-items: center; 
-        justify-content: space-between;
-        margin-bottom: 50px;
-        }
-        .list img{
-        width: 70px;
+        nav {
+        min-width: 100%;
         height: 70px;
-        margin-bottom: 10px;
-    }*/
-    nav {
-        width: 100%;
-        height: 50px;
-        background: rgba(0,0,0, .8);
+        background-color:black;
         border-top: 1px solid rgba(255,255,255, .2);
         border-bottom: 1px solid rgba(255,255,255, .2);
         position: fixed;
@@ -152,8 +110,12 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: flex-start; 
+        z-index: 1;
        }
       nav ul {
+        width: 100%;
+        height: 50px;
+        background: rgba(0,0,0, .8);
         display: flex;
         margin: 0px;
         padding: 0 100px;
@@ -187,7 +149,10 @@ body{
         height: 50px;
         margin-bottom: 10px;
     }
-        
+    img{
+        width:  25%;
+        height: 300px;
+    }
     }
     </style>    
 </head>

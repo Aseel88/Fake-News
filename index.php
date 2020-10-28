@@ -10,8 +10,8 @@ require __DIR__.'/functions.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Fake News!</title>
     <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="Ipad.css" /> 
     <link rel="stylesheet" href="desktop.css" />    
-    <!--<link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
@@ -74,7 +74,7 @@ require __DIR__.'/functions.php';
             
                     </div>  
           </section> 
-          <!-- <div class ="footer"> -->
+         
             
                 <div class ="authors">
                     <h3> About authors! </h3>
