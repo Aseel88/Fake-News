@@ -16,17 +16,17 @@ Project is created with:
 * CSS
 	
 ## Installation
-```
+
 In the terminal, use the command git clone, then paste the link from your clipboard, or copy the command and link from below:
-
+```
 $ git clone https://github.com/Aseel88/Fake-News.git
-
+```
 Change directories to the new directory:
-
+```
 $ cd ~/Fake-News/
-
+```
 Run a local server using the command line:
-
+```
 $ php -S localhost:8000 
 
 ```
