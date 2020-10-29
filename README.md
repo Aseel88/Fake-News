@@ -1,5 +1,5 @@
 # Fake News
-<img src="https://wingsart.studio/giphy.gif" width="100%">
+
 
 ## Table of contents
 * [General info](#general-info)
