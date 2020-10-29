@@ -57,9 +57,6 @@ function getLikeCounter(array $articles): int
     return $articles['like_counter'];
 }
 
-
-
-
 function getAuthorsName( array $authors): string
 {
     return $authors['full_name'];
