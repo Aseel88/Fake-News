@@ -1,5 +1,5 @@
 # Fake News
-
+<img src="https://giphy.com/gifs/trump-news-fake-fSjEO1PRijZAjaOuQ5" width= 100%>
 
 ## Table of contents
 * [General info](#general-info)
