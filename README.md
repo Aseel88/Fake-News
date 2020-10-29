@@ -5,6 +5,8 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Installation](#installation)
+* [Comments](#comments)
+* [License](#license)
 
 ## General info
 This project is to create a news feed in PHP, which consists many items created by different authors.
