@@ -41,6 +41,11 @@ $ php -S localhost:8000
 *
 *
 *
+## Testers
+The project was tested by:
+- Simon Lindstedt
+- Moa Berg
+- Agnes Binett
 
 ## License
 MIT License. For more details https://github.com/Aseel88/Fake-News/blob/main/LICENSE
