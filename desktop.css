@@ -1,6 +1,6 @@
 @media screen and  (min-width: 1000px){
     body{      
-        max-width: 80%;
+        max-width: 95%;
         background-color: black;
         display: flex;
         flex-direction: column;
@@ -109,18 +109,18 @@
     }
     .various_news{
         position: fixed;
-        width: 450px;
+        width: 350px;
         min-height: 400px;
         margin-bottom: 200px;
         margin-right:20px;
         top: 27%;
-        right: 50%;
+        right: 63%;
     }            
     
 
     .various_new{
         visibility: hidden;
-        width: 450px;
+        width: 350px;
         min-height: 400px;
         margin-bottom: 30px;
         margin-right:100px;
@@ -150,7 +150,7 @@
 
 
     .articles{
-         width: 600px; 
+         width: 500px; 
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
