@@ -59,7 +59,7 @@ require __DIR__.'/functions.php';
                             <?php echo getLikeCounter($article); ?>
                             </div>
 
-                            <h1 ><a href="article.php?id=<?php echo $article['id']; ?>"> <?php echo getTitle($article) ; ?> </a> </h1>                 
+                            <h1 ><a href="articles.php?id=<?php echo $article['id']; ?>"> <?php echo getTitle($article) ; ?> </a> </h1>                 
                  
                         </div>
               
