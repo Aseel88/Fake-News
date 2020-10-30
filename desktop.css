@@ -114,7 +114,7 @@
         margin-bottom: 200px;
         margin-right:20px;
         top: 27%;
-        right: 63%;
+        right: 60%;
     }            
     
 
@@ -155,7 +155,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin-bottom: 100px;
-      
+      padding-right: 100px;
     }
     .description{
         display: flex;
@@ -186,7 +186,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-right: -250px;
+        margin-right: 50px;
         margin-top: 70px;
     }
     .author{
