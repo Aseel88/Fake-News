@@ -6,6 +6,7 @@
 * [Technologies](#technologies)
 * [Installation](#installation)
 * [Comments](#comments)
+* [Testers](#testers)
 * [License](#license)
 
 ## General info
