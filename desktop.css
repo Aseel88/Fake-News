@@ -194,4 +194,9 @@
     }
    
  }
+ @media screen and  (min-width: 1850px){
+     .various_news{
+        right: 66%;
+     }
+ }
  
